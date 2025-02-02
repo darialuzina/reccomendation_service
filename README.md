@@ -1,8 +1,8 @@
 # reccomendation_service
 Files:  
-Model.ipynb: feature generation and Catboost model  
-Feature_databases.ipynb: loading features to database  
-service.py: reccomendation service  
-schema.py: class PostGet  
-catboost_model_3.cbm: file with model  
-requirements.txt  
+1) Model.ipynb: feature generation and Catboost model  
+2) Feature_databases.ipynb: loading features to database  
+3) service.py: reccomendation service  
+4) schema.py: class PostGet  
+5) catboost_model_3.cbm: file with model  
+6) requirements.txt  
