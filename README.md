@@ -1,2 +1,2 @@
 # reccomendation_service
-Catboost model
+Catboost model (handles categorical features)
