@@ -12,7 +12,7 @@ This project is a **machine learning-based recommendation service** that process
 
 
 ## 📂 Project Structure
-📂 recommendation-service/      # Root directory of the project
+📂 recommendation_service/      # Root directory of the project
 │── 📄 README.md                # Project documentation
 │── 📄 requirements.txt         # Dependencies list
 │── 📂 notebooks/               # Jupyter Notebooks for model training & feature engineering
