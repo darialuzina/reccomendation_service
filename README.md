@@ -11,6 +11,7 @@ This project is a **machine learning-based recommendation service** that process
 ✅ **Postman Integration**
 
 
+## 📂 Project Structure
 📂 recommendation-service/      # Root directory of the project
 │── 📄 README.md                # Project documentation
 │── 📄 requirements.txt         # Dependencies list
