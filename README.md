@@ -12,15 +12,18 @@ This project is a **machine learning-based recommendation service** that process
 
 
 ## 📂 Project Structure
-📂 recommendation_service/      # Root directory of the project
-│── 📄 README.md                # Project documentation
-│── 📄 requirements.txt         # Dependencies list
-│── 📂 notebooks/               # Jupyter Notebooks for model training & feature engineering
+## 📂 Project Structure
+```bash
+recommendation-service/      # Root directory of the project
+│── README.md                # Project documentation
+│── requirements.txt         # Dependencies list
+│── notebooks/               # Jupyter Notebooks for model training & feature engineering
 │   ├── Feature_databases.ipynb # Feature extraction & database storage
 │   ├── Model.ipynb             # Model training & evaluation
-│── 📂 models/                  # Pre-trained models
+│── models/                  # Pre-trained models
 │   ├── catboost_model.cbm      # Saved CatBoost model
-│── 📂 service/                 # API implementation using FastAPI
+│── service/                 # API implementation using FastAPI
 │   ├── service.py              # API endpoints and service logic
 │   ├── schema.py               # API schema definitions
+
 
