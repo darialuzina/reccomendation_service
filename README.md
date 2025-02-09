@@ -12,7 +12,6 @@ This project is a **machine learning-based recommendation service** that process
 
 
 ## 📂 Project Structure
-## 📂 Project Structure
 ```bash
 recommendation-service/      # Root directory of the project
 │── README.md                # Project documentation
