@@ -37,14 +37,19 @@ model = load_models()
 
 import pandas as pd
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DB_URL = os.getenv("DB_URL")
+
+if not DB_URL:
+    raise ValueError("Database URL not found. Make sure you have a .env file or set the environment variable.")
 
 
 def batch_load_sql(query: str) -> pd.DataFrame:
     CHUNKSIZE = 200000
-    engine = create_engine(
-        "postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
-        "postgres.lab.karpov.courses:6432/startml"
-    )
+    engine = create_engine(DB_URL)
     conn = engine.connect().execution_options(stream_results=True)
     chunks = []
     for chunk_dataframe in pd.read_sql(query, conn, chunksize=CHUNKSIZE):
