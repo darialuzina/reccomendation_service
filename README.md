@@ -16,7 +16,7 @@ This project is a **machine learning-based recommendation service** that process
 recommendation-service/      # Root directory of the project
 │── README.md                # Project documentation
 │── requirements.txt         # Dependencies list
-│── gitignore/               # Git ignore file
+│── .gitignore/               # Git ignore file
 │── notebooks/               # Jupyter Notebooks for model training & feature engineering
 │   ├── Feature_databases.ipynb # Feature extraction & database storage
 │   ├── Model.ipynb             # Model training & evaluation
