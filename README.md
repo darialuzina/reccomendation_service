@@ -13,7 +13,7 @@ This project is a **machine learning-based recommendation service** that process
 
 ## 📂 Project Structure
 ```bash
-recommendation-service/      # Root directory of the project
+recommendation-service_ver1/      # Root directory of the project
 │── README.md                # Project documentation
 │── requirements.txt         # Dependencies list
 │── .gitignore/               # Git ignore file
@@ -21,7 +21,7 @@ recommendation-service/      # Root directory of the project
 │   ├── Feature_databases.ipynb # Feature extraction & database storage
 │   ├── Model.ipynb             # Model training & evaluation
 │── models/                  # Pre-trained models
-│   ├── catboost_model.cbm      # Saved CatBoost model
+│   ├── catboost_model_3.cbm      # Saved CatBoost model
 │── service/                 # API implementation using FastAPI
 │   ├── service.py              # API endpoints and service logic
 │   ├── schema.py               # API schema definitions
